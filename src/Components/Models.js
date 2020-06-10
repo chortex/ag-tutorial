@@ -11,6 +11,9 @@ import boxesModels1 from '../assets/models/Weapons world models (boxes)/boxesMod
 import boxesModels2 from '../assets/models/Weapons world models (boxes)/boxesModels2.jpg';
 import boxesModels3 from '../assets/models/Weapons world models (boxes)/boxesModels3.jpg';
 
+import rammyWorld1 from '../assets/models/World models by rammy/rammyWorld1.jpg';
+import rammyWorld2 from '../assets/models/World models by rammy/rammyWorld2.jpg';
+
 import rammyGauss from '../assets/models/Weapons models by rammy/rammyGauss.jpg';
 import rammyHandgun from '../assets/models/Weapons models by rammy/rammyHandgun.jpg';
 
@@ -134,6 +137,18 @@ export default class Models extends Component {
             </Card.Header>
             <Card.Body>
               <h5 class="card-title">Weapons transparent contrasting color models by rammy</h5>
+              <Carousel className='pb-3'>
+                <Carousel.Item>
+                  <Card.Img
+                    src={rammyGauss}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Card.Img
+                    src={rammyHandgun}
+                  />
+                </Carousel.Item>
+              </Carousel>
               <p class="card-text">Just replace this files into your AG/models directory
               </p>
               <a href='https://drive.google.com/file/d/174wObJ7FN3Zr7YExZ19pGlIAtPAdBPl3/view?usp=sharing' target='_blank' rel="noopener noreferrer" className='p-0 m-0'><i className="fas fa-cloud-download-alt pr-2"></i>Download</a>
@@ -149,12 +164,12 @@ export default class Models extends Component {
               <Carousel className='pb-3'>
                 <Carousel.Item>
                   <Card.Img
-                    src={rammyGauss}
+                    src={rammyWorld1}
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card.Img
-                    src={rammyHandgun}
+                    src={rammyWorld2}
                   />
                 </Carousel.Item>
               </Carousel>

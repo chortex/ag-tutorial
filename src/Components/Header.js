@@ -46,10 +46,10 @@ export default class Header extends Component {
         </Navbar>
 
         <Switch>
-          <Route exact path='/' component={Main} />
-          <Route path='/customization' component={Customization} />
-          <Route path='/guides' component={Guides} />
-          <Route path='/resources' component={Resources} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Main} />
+          <Route path={process.env.PUBLIC_URL + '/customization'} component={Customization} />
+          <Route path={process.env.PUBLIC_URL + '/guides'} component={Guides} />
+          <Route path={process.env.PUBLIC_URL + '/resources'} component={Resources} />
           <Route component={NoMatch} />
         </Switch>
       </Router>
