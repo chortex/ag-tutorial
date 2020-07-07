@@ -40,6 +40,19 @@ export default class Settings extends Component {
             </Card.Body>
           </Card>
 
+          <Card className='mb-3'>
+            <Card.Header>
+              template.cfg
+            </Card.Header>
+            <Card.Body>
+              <h5 class="card-title">Config template</h5>
+              <p class="card-text">Feel free to change binds and settings if needed or add your custom settings. 
+              This template based on rammy config.
+              </p>
+              <a href='https://drive.google.com/file/d/1eIKYdPz2L5whqYCOjLgR-r7n1I10G4EG/view?usp=sharing' target='_blank' rel="noopener noreferrer" className='p-0 m-0'><i className="fas fa-cloud-download-alt pr-2"></i>Download</a>
+            </Card.Body>
+          </Card>
+
           <p>Also here are configs examples of known AG players. Feel free to use any of it.</p>
 
           <Card className='mb-3'>
@@ -78,12 +91,29 @@ export default class Settings extends Component {
             </Card.Body>
           </Card>
 
+          <Card className='mb-3'>
+            <Card.Header>
+              execut4ble.cfg
+            </Card.Header>
+            <Card.Body>
+              <h5 class="card-title">Config by execut4ble</h5>
+              <p class="card-text">Feel free to change it and use.
+              </p>
+              <a href='https://drive.google.com/file/d/1q58zyLHHoenk1rUbhI4pCL-ZbWjE9W8s/view?usp=sharing' target='_blank' rel="noopener noreferrer" className='p-0 m-0'><i className="fas fa-cloud-download-alt pr-2"></i>Download</a>
+            </Card.Body>
+          </Card>
+
         </div>
         <div className='pb-4'>
           <h4 className='font-weight-bold pb-3'>Commands</h4>
           <p>This is not full list of commands but here are an explanation of the most important client commands</p>
-          <p><code>sensitivity " "</code> - your mouse sensitivity. Depends on your mouse dpi chose comfotable value.</p>
-          <p><code>fps_max "142.8571"</code> - your FPS value (recommended). Also recommended values are: <code>"125"</code>, <code>"111.1111"</code>, <code>"100"</code></p>
+          <p><code>sensitivity " "</code> - your mouse sensitivity. Depends on your mouse dpi chose comfotable value. 
+            Sensitivity is one of the most important setting which influence on your gameplay. More details how to chose 
+            sensitivity correct you can find in aiming part of section <a href='/guides'>guides</a>.
+          </p>
+          <p><code>fps_max "142.8571"</code> - your FPS value (recommended). Also recommended values are: <code>"125"</code>, <code>"111.1111"</code>, <code>"100"</code>. 
+            FPS is very important because in Half-Life game physic depends on your FPS value. To learn more read this <a href='https://wiki.sourceruns.org/wiki/FPS_Effects' target='_blank' rel="noopener noreferrer">article</a>
+          </p>
           <p><code>developer "1"</code> - is a developer mode which uncaps fps and also puts console output on the top left corner</p>
           <p><code>fps_override "1"</code> - allow to use FPS > 100</p>
           <p><code>default_fov " "</code> - field of view. Recommended values are in range <code>"90"</code> - <code>"105"</code></p>
