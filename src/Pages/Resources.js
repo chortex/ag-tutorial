@@ -183,12 +183,6 @@ export default class Resources extends Component {
                 <p class="card-text">
                   RHLL was a russian half-life league. They stopped in 2015.
                 </p>
-                <div className='d-flex justify-content-center'>
-                  <Card.Img
-                    src="http://hydrogen.clan.su/_nw/2/18525125.jpg"
-                    
-                  />
-                </div>
               </Card.Body>
             </Card>
 
