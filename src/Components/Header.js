@@ -15,7 +15,7 @@ export default class Header extends Component {
     return (
       <>
       <Router>
-        <Navbar collapseOnSelect expand='md' bg='dark' variant='dark' className='sticky-top shadow'>
+        <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
           <Container>
             <Navbar.Brand href='/' className='d-flex align-items-center'>
               <img

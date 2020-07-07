@@ -28,7 +28,7 @@ export default class Guides extends Component {
           <Tab.Container id='customization-tabs' defaultActiveKey='movement'>
             <Row>
               <Col sm={3}>
-                <Nav variant='pills' className='flex-column sticky-top' style={{top: "95px"}}>
+                <Nav variant='pills' className='flex-column sticky-top' style={{top: "25px"}}>
                   <Nav.Item className='pl-5 pr-5 pb-3'>
                     <Nav.Link eventKey='movement' className='customization-nav-link'>Movement</Nav.Link>
                   </Nav.Item>

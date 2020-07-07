@@ -27,7 +27,7 @@ export default class Customization extends Component {
           <Tab.Container id='customization-tabs' defaultActiveKey='settings'>
             <Row>
               <Col sm={3}>
-                <Nav variant='pills' className='flex-column sticky-top' style={{top: "95px"}}>
+                <Nav variant='pills' className='flex-column sticky-top' style={{top: "25px"}}>
                   <Nav.Item className='pl-5 pr-5 pb-3'>
                     <Nav.Link eventKey='settings' className='customization-nav-link'>Settings</Nav.Link>
                   </Nav.Item>
