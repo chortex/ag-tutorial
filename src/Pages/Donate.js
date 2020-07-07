@@ -10,7 +10,6 @@ export default class Donate extends Component {
           <a href='https://paypal.me/chortex/1' className='btn btn-success btn-lg mt-3 m-3' target='_blank' rel="noopener noreferrer">PayPall</a>
           <a href='https://www.donationalerts.com/r/chrtx' className='btn btn-success btn-lg mt-3 m-3' target='_blank' rel="noopener noreferrer">Donate</a>
         </div>
-        <h6 className='text-center text-muted'>If you haven't an opportunity to donate you can help by visiting this ads</h6>
       </div>
     )
   }
