@@ -186,7 +186,7 @@ export default class Resources extends Component {
                 <div className='d-flex justify-content-center'>
                   <Card.Img
                     src="http://hydrogen.clan.su/_nw/2/18525125.jpg"
-                    style={{width:"560px", height:"auto"}}
+                    
                   />
                 </div>
               </Card.Body>
