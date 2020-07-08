@@ -35,7 +35,7 @@ export default class Header extends Component {
                 <Nav.Link as={NavLink} to='/guides' activeStyle={{color: '#008CBA'}}> Guides </Nav.Link>
                 <Nav.Link as={NavLink} to='/resources' activeStyle={{color: '#008CBA'}}> Resources </Nav.Link>
               </Nav>
-              <Nav.Link as={NavLink} to='/donate' className='btn btn-primary btn-lg'> Support </Nav.Link>
+              <Nav.Link as={NavLink} to='/donate' className='btn btn-success btn-lg'> Support </Nav.Link>
             </Navbar.Collapse>
           </Container>
         </Navbar>
