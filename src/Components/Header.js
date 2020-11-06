@@ -9,15 +9,17 @@ import Guides from '../Pages/Guides';
 import Resources from '../Pages/Resources';
 import NoMatch from '../Components/NoMatch';
 import Donate from '../Pages/Donate';
+import ScrollToTop from '../Components/ScrollToTop'
 
 export default class Header extends Component {
   render() {
     return (
       <>
       <Router>
-        <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
+        <ScrollToTop />
+        <Navbar collapseOnSelect expand='md' bg='dark' variant='dark' className='sticky-top' style={{zIndex:"3000"}}>
           <Container>
-            <Navbar.Brand href='/' className='d-flex align-items-center'>
+            <Navbar.Brand href='/' className='d-flex align-items-center font-weight-bold'>
               <img
                 src={logo}
                 height='45'
@@ -35,7 +37,7 @@ export default class Header extends Component {
                 <Nav.Link as={NavLink} to='/guides' activeStyle={{color: '#008CBA'}}> Guides </Nav.Link>
                 <Nav.Link as={NavLink} to='/resources' activeStyle={{color: '#008CBA'}}> Resources </Nav.Link>
               </Nav>
-              <Nav.Link as={NavLink} to='/donate' className='btn btn-success btn-lg'> Support </Nav.Link>
+              <Nav.Link as={NavLink} to='/donate' className='btn btn-success' style={{borderRadius: "20px"}}> <i className="fab fa-patreon"></i> <b>Donate</b> </Nav.Link>
             </Navbar.Collapse>
           </Container>
         </Navbar>

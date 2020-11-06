@@ -27,23 +27,23 @@ export default class Guides extends Component {
         <Container>
           <Tab.Container id='customization-tabs' defaultActiveKey='movement'>
             <Row>
-              <Col sm={3}>
-                <Nav variant='pills' className='flex-column sticky-top' style={{top: "25px"}}>
+              <Col md={3}>
+                <Nav variant='pills' className='flex-column sticky-top' style={{top: "95px"}}>
                   <Nav.Item className='pl-5 pr-5 pb-3'>
                     <Nav.Link eventKey='movement' className='customization-nav-link'>Movement</Nav.Link>
                   </Nav.Item>
                   <Nav.Item className='pl-5 pr-5 pb-3'>
-                    <Nav.Link eventKey='aiming' className='customization-nav-link'>Aiming</Nav.Link>
+                    <Nav.Link eventKey='tactics' className='customization-nav-link'>Tactics</Nav.Link>
                   </Nav.Item>
                   <Nav.Item className='pl-5 pr-5 pb-3'>
-                    <Nav.Link eventKey='tactics' className='customization-nav-link'>Tactics</Nav.Link>
+                    <Nav.Link eventKey='aiming' className='customization-nav-link'>Aiming</Nav.Link>
                   </Nav.Item>
                   <Nav.Item className='pl-5 pr-5 pb-3'>
                     <Nav.Link eventKey='strategies' className='customization-nav-link'>Strategies</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
-              <Col sm={9}>
+              <Col md={9}>
                 <p className='text-muted'>
                   <small>
                   These materials are only a subjective vision of the authors and are based only on their

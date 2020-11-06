@@ -63,7 +63,7 @@ export default class Sprites extends Component {
               <h5 class="card-title">chrtx sprites and crosshairs</h5>
               <p class="card-text">Just replace this files into your AG/sprites directory
               </p>
-              <a href='https://drive.google.com/file/d/1ALq-HE6VQ-ztFukGtUqGFrDpkD7xVCDU/view?usp=sharing' target='_blank' rel="noopener noreferrer" className='p-0 m-0'><i className="fas fa-cloud-download-alt pr-2"></i>Download</a>
+              <a href='https://drive.google.com/file/d/1Y2MkXpg8UOFCKUY9Bjo46vQRz-Jfgjma/view?usp=sharing' target='_blank' rel="noopener noreferrer" className='p-0 m-0'><i className="fas fa-cloud-download-alt pr-2"></i>Download</a>
             </Card.Body>
           </Card>
 

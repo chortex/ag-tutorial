@@ -6,7 +6,7 @@ export default class Progress extends Component {
   render() {
     return (
       <Container>
-        <h2 className='d-flex justify-content-center pb-5'>Start to play in few steps</h2>
+        <h2 className='d-flex justify-content-center pb-5'>Start to play Half-Life AG in few steps</h2>
         <Row className='d-flex justify-content-between pl-3 pr-3 pb-5'>
           <div className='step col-md-2'>
             <i className="fab fa-steam-symbol fa-2x text-primary pb-2 d-flex justify-content-center"></i>
