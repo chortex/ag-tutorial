@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d41bde9.chunk.css",
-    "main.js": "/static/js/main.d3d5e918.chunk.js",
-    "main.js.map": "/static/js/main.d3d5e918.chunk.js.map",
+    "main.css": "/static/css/main.e213624c.chunk.css",
+    "main.js": "/static/js/main.27d3e4f8.chunk.js",
+    "main.js.map": "/static/js/main.27d3e4f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8771b6bd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8771b6bd.js.map",
-    "static/css/2.c9754456.chunk.css": "/static/css/2.c9754456.chunk.css",
-    "static/js/2.34b21272.chunk.js": "/static/js/2.34b21272.chunk.js",
-    "static/js/2.34b21272.chunk.js.map": "/static/js/2.34b21272.chunk.js.map",
+    "static/css/2.0e4197fe.chunk.css": "/static/css/2.0e4197fe.chunk.css",
+    "static/js/2.8e57f06f.chunk.js": "/static/js/2.8e57f06f.chunk.js",
+    "static/js/2.8e57f06f.chunk.js.map": "/static/js/2.8e57f06f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7a8e86a04fc73dea453e9b780d8c5507.js": "/precache-manifest.7a8e86a04fc73dea453e9b780d8c5507.js",
+    "precache-manifest.ecde439a5557d57b37d611fd7881645f.js": "/precache-manifest.ecde439a5557d57b37d611fd7881645f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.c9754456.chunk.css.map": "/static/css/2.c9754456.chunk.css.map",
-    "static/css/main.3d41bde9.chunk.css.map": "/static/css/main.3d41bde9.chunk.css.map",
-    "static/js/2.34b21272.chunk.js.LICENSE.txt": "/static/js/2.34b21272.chunk.js.LICENSE.txt",
+    "static/css/2.0e4197fe.chunk.css.map": "/static/css/2.0e4197fe.chunk.css.map",
+    "static/css/main.e213624c.chunk.css.map": "/static/css/main.e213624c.chunk.css.map",
+    "static/js/2.8e57f06f.chunk.js.LICENSE.txt": "/static/js/2.8e57f06f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/20200605172559_1-min.7c84ccf4.jpg",
     "static/media/boot_blurred.jpg": "/static/media/boot_blurred.d2e973e9.jpg",
     "static/media/boot_clean_grid.jpg": "/static/media/boot_clean_grid.2a0e9cfb.jpg",
@@ -27,6 +27,7 @@
     "static/media/cross_clean_grid.jpg": "/static/media/cross_clean_grid.80b4ca89.jpg",
     "static/media/cross_greyscale.jpg": "/static/media/cross_greyscale.a3515f9d.jpg",
     "static/media/endcamp_blurred.jpg": "/static/media/endcamp_blurred.834d1808.jpg",
+    "static/media/gamepad.jpg": "/static/media/gamepad.3e5de74a.jpg",
     "static/media/kensanGauss.jpg": "/static/media/kensanGauss.afb6d8b9.jpg",
     "static/media/kensanHandgun.jpg": "/static/media/kensanHandgun.0118d642.jpg",
     "static/media/kensanWorld1.jpg": "/static/media/kensanWorld1.22f46d6e.jpg",
@@ -49,9 +50,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8771b6bd.js",
-    "static/css/2.c9754456.chunk.css",
-    "static/js/2.34b21272.chunk.js",
-    "static/css/main.3d41bde9.chunk.css",
-    "static/js/main.d3d5e918.chunk.js"
+    "static/css/2.0e4197fe.chunk.css",
+    "static/js/2.8e57f06f.chunk.js",
+    "static/css/main.e213624c.chunk.css",
+    "static/js/main.27d3e4f8.chunk.js"
   ]
 }

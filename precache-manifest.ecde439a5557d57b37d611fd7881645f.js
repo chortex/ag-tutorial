@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eebe7342829ad8ac5342bdf477a66c1e",
+    "revision": "b8b5748789656a1fa2fbf51337503807",
     "url": "/index.html"
   },
   {
-    "revision": "487fbdd11b0b8111d1a5",
-    "url": "/static/css/2.c9754456.chunk.css"
+    "revision": "3ca2e96e8c4fe8e44c65",
+    "url": "/static/css/2.0e4197fe.chunk.css"
   },
   {
-    "revision": "114db8ce9acd250b7950",
-    "url": "/static/css/main.3d41bde9.chunk.css"
+    "revision": "d082f9374547020ad135",
+    "url": "/static/css/main.e213624c.chunk.css"
   },
   {
-    "revision": "487fbdd11b0b8111d1a5",
-    "url": "/static/js/2.34b21272.chunk.js"
+    "revision": "3ca2e96e8c4fe8e44c65",
+    "url": "/static/js/2.8e57f06f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.34b21272.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8e57f06f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "114db8ce9acd250b7950",
-    "url": "/static/js/main.d3d5e918.chunk.js"
+    "revision": "d082f9374547020ad135",
+    "url": "/static/js/main.27d3e4f8.chunk.js"
   },
   {
     "revision": "615d0ad7309de9c9c000",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "834d1808ec8294f3761754d3258a0d45",
     "url": "/static/media/endcamp_blurred.834d1808.jpg"
+  },
+  {
+    "revision": "3e5de74a6f0a48f1e0c8eacd955218a4",
+    "url": "/static/media/gamepad.3e5de74a.jpg"
   },
   {
     "revision": "afb6d8b97b723df971ce381e3f1bc774",
