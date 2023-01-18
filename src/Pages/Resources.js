@@ -73,18 +73,6 @@ export default class Resources extends Component {
 
             <Card className='mb-3 ml-3 mr-3'>
               <Card.Header>
-                <a href='https://vk.com/hldmpro' target='_blank' rel="noopener noreferrer">HLDMPRO League</a>
-              </Card.Header>
-              <Card.Body>
-                <h5 className="card-title">HLDMPRO League (russian) community</h5>
-                <p className="card-text">
-                  HLDMPRO is russian HL AG players community. They usually host AG tournaments.
-                </p>
-              </Card.Body>
-            </Card>
-
-            <Card className='mb-3 ml-3 mr-3'>
-              <Card.Header>
                 <a href='http://adrenalinegamer.org/' target='_blank' rel="noopener noreferrer">AG demos database</a>
               </Card.Header>
               <Card.Body>
@@ -182,44 +170,6 @@ export default class Resources extends Component {
                 <Card.Img
                   src="https://sites.google.com/site/ecs1v1championship/_/rsrc/1375647983564/home/banner.jpg"
                 />
-              </Card.Body>
-            </Card>
-
-            <Card className='mb-3 ml-3 mr-3'>
-              <Card.Header>
-                <a href='http://hydrogen.clan.su/' target='_blank' rel="noopener noreferrer">Russian Half-Life League</a>
-              </Card.Header>
-              <Card.Body>
-                <h5 className="card-title">RHLL website (inactive)</h5>
-                <p className="card-text">
-                  RHLL was a russian half-life league. They stopped in 2015.
-                </p>
-              </Card.Body>
-            </Card>
-
-            <Card className='mb-3 ml-3 mr-3'>
-              <Card.Header>
-                <a href='https://www.youtube.com/user/M4akaTaraN' target='_blank' rel="noopener noreferrer">Master Noi youtube</a>
-              </Card.Header>
-              <Card.Body>
-                <h5 className="card-title">Noi youtube channel.</h5>
-                <p className="card-text">Noi is one of the best AG players. He is also making tournaments overviews and investigation. This channel is russian speaking.</p>
-                <div className='d-flex justify-content-center'>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/mehzDzD3Xl4" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen='yes' title='triggerbot'></iframe>
-                </div>
-              </Card.Body>
-            </Card>
-
-            <Card className='mb-3 ml-3 mr-3'>
-              <Card.Header>
-                <a href='https://www.youtube.com/channel/UCtLZqnIodWOgLL_sv2sEByw' target='_blank' rel="noopener noreferrer">oopskurt youtube</a>
-              </Card.Header>
-              <Card.Body>
-                <h5 className="card-title">oopskurt youtube channel.</h5>
-                <p className="card-text">oopskurt is russian AG player. On his channel he has tutorials about how to start AG. His channel is russian speaking.</p>
-                <div className='d-flex justify-content-center'>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fHDEXyyz_mg" title='Half-Life spawn system by oopskurt' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen='yes'></iframe>
-                </div>
               </Card.Body>
             </Card>
         </Container>

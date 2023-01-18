@@ -124,7 +124,7 @@ export default class Settings extends Component {
           <p><code>cl_cmdrate "100"</code> - defines quantity of requests from server to client per second</p>
           <p><code>cl_updaterate "100"</code> - defines quantity of requests from client to server per second</p>
           <p><code>ex_interp "0.05"</code> - this command interpolate client picture based on data from server. Also recommended value is <code>"0.1"</code> if your ping is more than 50.</p>
-          <p className='pt-3'>To see full list of settings check out <a href='http://www.murka-terroristka.de/cvars/' target='_blank' rel="noopener noreferrer">documentation</a></p>
+          <p className='pt-3'>To see full list of settings check out <a href='http://txdv.github.io/cstrike-cvarlist/' target='_blank' rel="noopener noreferrer">documentation</a></p>
           <p>OpenAG custom commands you can find <a href='https://openag.pro/docs/#commands' target='_blank' rel="noopener noreferrer">here</a></p>
         </div>
       </React.Fragment>

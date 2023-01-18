@@ -8,7 +8,7 @@ import Customization from '../Pages/Customization';
 import Guides from '../Pages/Guides';
 import Resources from '../Pages/Resources';
 import NoMatch from '../Components/NoMatch';
-import Donate from '../Pages/Donate';
+// import Donate from '../Pages/Donate';
 import ScrollToTop from '../Components/ScrollToTop'
 
 export default class Header extends Component {
@@ -37,7 +37,7 @@ export default class Header extends Component {
                 <Nav.Link as={NavLink} to='/guides' activeStyle={{color: '#008CBA'}}> Guides </Nav.Link>
                 <Nav.Link as={NavLink} to='/resources' activeStyle={{color: '#008CBA'}}> Resources </Nav.Link>
               </Nav>
-              <Nav.Link as={NavLink} to='/donate' className='btn btn-success' style={{borderRadius: "20px"}}> <i className="fab fa-patreon"></i> <b>Donate</b> </Nav.Link>
+              <a target='_blank' rel="noopener noreferrer" href='https://www.paypal.com/donate/?hosted_button_id=GCBVNAM582DDS' className='btn btn-success d-flex justify-content-center' style={{borderRadius: "20px"}}> <i className="fab fa-paypal fa-lg m-md-auto pr-2"></i><b>Donate</b></a>
             </Navbar.Collapse>
           </Container>
         </Navbar>
@@ -47,7 +47,7 @@ export default class Header extends Component {
           <Route path='/customization' component={Customization} />
           <Route path='/guides' component={Guides} />
           <Route path='/resources' component={Resources} />
-          <Route path='/donate' component={Donate} />
+          {/* <Route path='/donate' component={Donate} /> */}
           <Route component={NoMatch} />
         </Switch>
       </Router>

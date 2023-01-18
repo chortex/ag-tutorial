@@ -118,7 +118,7 @@ export default class Movement extends Component {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/vvlZ7bwTLf0" frameBorder="0" title='ag_longjump2 | 382 longjump (hlspbunny AG settings)' allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen='yes'></iframe>
           </div>
           <p>
-            Standard speed when you are walking in Half-Life is 300 units/sec. With successful pre-strafe your speed is ~ 450 units/sec.
+            Standard speed when you are walking in Adrenaline Gamer is 300 units/sec. With successful pre-strafe your speed is ~ 450 units/sec.
             There is another way to get 450 units/sec speed called <b>wallstrafing</b>. In case any wall is around you have 
             to stay close to wall and press <code>W</code> + <code>A</code> (wall is left side to you) or <code>W</code> + <code>D</code> 
             (wall is right side to you). It work's the same for backwards walking. This trick works similar when you are climbing a ladder.

@@ -321,8 +321,8 @@ export default class Tactics extends Component {
         </p>
         <p>
           From the onset this weapon behaves just like any normal MP5, but the ability to throw grenades which deal a 
-          great amount of damage to your opponant is what makes the MP5 one of the core weapons in HLDM:AG. These 
-          grenades have a medium sized blast radius, and so can cause damage to opponants even if you're grenade isn't 
+          great amount of damage to your opponent is what makes the MP5 one of the core weapons in HLDM:AG. These 
+          grenades have a medium sized blast radius, and so can cause damage to opponents even if you're grenade isn't 
           100% accurate. Another useful tip when using the MP5 is that you can even fire grenades when you are out of 
           active 9mm ammo, but only before the reload animation has started. Perhaps a lesser known feature of the MP5 
           is grenade jumping - using the explosion of the grenade to launch you into the air. But beware, this severely 
@@ -376,18 +376,18 @@ export default class Tactics extends Component {
           with the gluon gun and also does not need to be reloaded. But wait, there's more...
         </p>
         <p>
-          The gauss gun's primary fire shoots a single direct beam at your opponant, costing two ammo points each. 
+          The gauss gun's primary fire shoots a single direct beam at your opponent, costing two ammo points each. 
           This fire mode burns up ammo very quickly and is not so useful. The second firemode however has a lot more 
           to offer - you can charge the gauss with secondary fire, using up to eleven ammo, and hold the charge for up 
           to ten seconds - any longer and the gun will overheat, it will lose its charge, and you'll recieve 50 damage. 
           But once you have the gauss charged, a few options are available to you.
         </p>
         <p>
-          Firstly, you can simply release the charge, firing a powerful white-hot beam at your opponant - the damage 
+          Firstly, you can simply release the charge, firing a powerful white-hot beam at your opponent - the damage 
           dealt is proportional to how much ammo is in the charge. These beams can shoot through multiple targets and 
           if aimed at walls, or corners, it creates a splash damage effect hitting players behind the target. The 
           gauss beam can also bounce off surfaces when fired at specific angles, resulting in shots that fire 
-          "around corners" or sometimes shots which hit your opponant twice with one beam.
+          "around corners" or sometimes shots which hit your opponent twice with one beam.
         </p>
         <p>
           The most prominant feature of the gauss is the movement capabilities it provides. For example, releasing 
@@ -406,14 +406,14 @@ export default class Tactics extends Component {
         <h5 className='pb-2 font-weight-bold text-muted'>Gluon Gun ( weapon_egon )</h5>
         <p>
           Like the gauss, the Gluon gun, sometimes called the Egon, is a highly powerful weapon. It emits a glowing 
-          beam of energy which obliterates your opponants health and armour. It is a hitscan weapon, and is most 
-          effective when you lock on to your opponant and aim for the head. Some of the beam is sprayed and can even 
+          beam of energy which obliterates your opponents health and armour. It is a hitscan weapon, and is most 
+          effective when you lock on to your opponent and aim for the head. Some of the beam is sprayed and can even 
           hit a player if they are standing close to a corner or edge, but be careful not to aim too close to a wall, 
           or indeed another player, because you will recieve splashback and it can damage your health / armour. If you 
           fire the egon whilst looking down and facing a wall, it will give you a momentary lift, allowing you to 
           reach slightly higher ground - the lift isn't much, but it can be useful if you don't have the longjump. 
           One noteable downside of this weapon would be the sound played when fired, the sound is very loud and makes 
-          locating your opponant difficult, especially because when a player hears this sound, their reaction is 
+          locating your opponent difficult, especially because when a player hears this sound, their reaction is 
           usually to run and hide.
         </p>
         <p>
@@ -426,13 +426,13 @@ export default class Tactics extends Component {
         <p>
           The Hornet gun, also called the Hivehand or Bee gun, is an organic weapon and could be best described as a 
           biologically engineered living assault rifle. This weapon has two fire modes, both shoot flying insect-like 
-          creatures which eat away at the flesh of your opponant. With primary fire, the bees lock on to your opponant 
+          creatures which eat away at the flesh of your opponent. With primary fire, the bees lock on to your opponent 
           and can even chase around corners, whereas the secondary fire shoots in a straight line at the point you aim, 
           but with an increased rate of fire. Once you have shot your 8 hornets, you must wait for for the weapon to 
           regenerate however you can fire again once the gun has generated 1 ammo. There is a nice little trick to 
           fully regenerate your ammo, by pressing your 'drop' key, then pick up the dropped weapon, and you will have 
           8 ammo once again. This weapon only deals a small amount of damage for each bee that hits, but it can be 
-          useful in stalling your opponant, as the primary fire bee's will surround your enemy as they do damage, 
+          useful in stalling your opponent, as the primary fire bee's will surround your enemy as they do damage, 
           interrupting their movement, providing you the opportunity to escape or switch to a stronger weapon and 
           finish them off.
         </p>
